@@ -13,7 +13,7 @@ function Products() {
 
     useEffect(() => {
         dispatch(fetchProducts());
-    }, []);
+    }, [dispatch]);
 
     return(
         <Container className='py-5'>
