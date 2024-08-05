@@ -3,8 +3,6 @@ import AppNavBar from './components/AppNavBar';
 import Cart from './components/Cart';
 import Products from './components/Products';
 
-//  hajora-app.surge.sh 
-
 function App() {
 
   return (
