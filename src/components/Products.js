@@ -24,7 +24,7 @@ function Products() {
                         <Card.Img  style={{ height: '300px'}}variant="top" src={product.image} />
                         <Card.Body>
                             <Card.Title>{product.title}</Card.Title>
-                            <Card.Text>{product.description.slice(0,50)}</Card.Text>
+                            <Card.Text>{product.description.slice(0,80)}...</Card.Text>
                             <Card.Text>{product.price}$</Card.Text>
                             <Button variant="primary" onClick={() => dispatch(addToCart(product))}>Add To Cart</Button>
                         </Card.Body>
